@@ -1,0 +1,65 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "WEB-DEV",
+    "description": "API DE CREATION",
+    "version": "1.0.0"
+  },
+  "host": "api.example.com",
+  "basePath": "/v2",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/users": {
+      "get": {
+        "summary": "infos sur les utilisateurs de la base de donnees",
+        "description": "api wed-dev",
+        "produces": [
+          "application/yml"
+        ],
+        "responses": {
+          "200": {
+            "description": "ras"
+          }
+        }
+      },
+      "post": {
+        "summary": "infos sur les utilisateurs de la base de donnees",
+        "description": "api wed-dev",
+        "produces": [
+          "application/yml"
+        ],
+        "responses": {
+          "200": {
+            "description": "ras"
+          }
+        }
+      },
+      "put": {
+        "summary": "infos sur les utilisateurs de la base de donnees",
+        "description": "api wed-dev",
+        "produces": [
+          "application/yml"
+        ],
+        "responses": {
+          "200": {
+            "description": "ras"
+          }
+        }
+      },
+      "delete": {
+        "summary": "infos sur les utilisateurs de la base de donnees",
+        "description": "api wed-dev",
+        "produces": [
+          "application/yml"
+        ],
+        "responses": {
+          "200": {
+            "description": "ras"
+          }
+        }
+      }
+    }
+  }
+}
